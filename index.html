@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Menu</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f7f7f7;
+color:#333;
+text-align:center
+}
+
+/* Banner */
+.banner{
+background:#111;
+color:white;
+padding:40px 20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px
+}
+
+.banner img{
+width:90px;
+height:90px;
+object-fit:contain
+}
+
+.banner h1{
+font-size:2rem;
+font-weight:700
+}
+
+.banner p{
+font-size:0.9rem;
+opacity:0.8
+}
+
+/* Menu Photo */
+.menu-section{
+padding:30px 20px
+}
+
+.menu-section img{
+width:100%;
+max-width:900px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15)
+}
+
+/* Promo */
+.promo{
+background:#fff;
+margin:30px auto;
+padding:25px;
+max-width:700px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08)
+}
+
+.promo h2{
+color:#c0392b;
+margin-bottom:10px
+}
+
+.promo p{
+font-size:0.95rem
+}
+
+/* Social Links */
+.social{
+margin-top:25px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:15px
+}
+
+.social a{
+text-decoration:none;
+background:#111;
+color:white;
+padding:12px 22px;
+border-radius:30px;
+font-size:0.9rem;
+transition:0.2s
+}
+
+.social a:hover{
+background:#c0392b
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+font-size:0.8rem;
+color:#777
+}
+
+@media(max-width:600px){
+.banner h1{font-size:1.6rem}
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Banner -->
+<div class="banner">
+<img src="logo.png" alt="Restaurant Logo">
+<h1>Your Restaurant Name</h1>
+<p>Delicious food • Great atmosphere</p>
+</div>
+
+<!-- Menu Photo -->
+<div class="menu-section">
+<img src="menu.jpg" alt="Restaurant Menu">
+</div>
+
+<!-- Promotion -->
+<div class="promo">
+<h2>🎉 Follow Us & Get a Discount!</h2>
+<p>
+Follow our social media pages and show proof to our staff to receive a <b>special discount</b> on your order.
+<br><br>
+Stay updated with our latest promos, new dishes, and events!
+</p>
+
+<div class="social">
+<a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">TikTok</a>
+<a href="#">Google Maps</a>
+</div>
+
+</div>
+
+<footer>
+© 2026 Your Restaurant Name
+</footer>
+
+</body>
+</html>
